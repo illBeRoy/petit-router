@@ -71,3 +71,7 @@ Triggers `back` action, that is, navigates to the previous page.
 ### `redirect(path: string)`
 
 Triggers page redirection - that is, replacing the current route with a new one, and removing the old one from routing history.
+
+## License
+
+This package is provided under the [⚖️ ISC](LICENSE) license, which basically says that you can do whatever you want :)
