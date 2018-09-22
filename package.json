@@ -1,7 +1,11 @@
 {
   "name": "petit-router",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "miniature router for react application that's bound to window history",
+  "author": "Roy Sommer",
+  "keywords": ["react", "router", "easy", "lightweight", "small"],
+  "license": "ISC",
+  "repository": "https://github.com/illberoy/petit-router",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
   "directories": {
@@ -17,9 +21,6 @@
     "prepublish": "npm run clean && npm run build",
     "clean": "rm -rf dist"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/jest": "^23.3.2",
     "@types/node": "^10.10.2",
